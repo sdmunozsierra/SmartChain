@@ -1,0 +1,85 @@
+{
+  "contract_name": "NewContract",
+  "address": "0xfd8227cdd3f30bac3b5fb37dd54e5eaee941ac44",
+  "code": "6060604052341561000f57600080fd5b60dd8061001d6000396000f300606060405263ffffffff7c01000000000000000000000000000000000000000000000000000000006000350416632a1afcd98114605957806360fe47b114607b5780636d4ce63c146090578063f4b103d414607b57600080fd5b3415606357600080fd5b606960a0565b60405190815260200160405180910390f35b3415608557600080fd5b608e60043560a6565b005b3415609a57600080fd5b606960ab565b60005481565b600055565b600054905600a165627a7a723058200769e23c0249a959989711000bf271bcef16976c4fc9cf1fab3954d21c457fc80029",
+  "runtime_bytecode": "606060405263ffffffff7c01000000000000000000000000000000000000000000000000000000006000350416632a1afcd98114605957806360fe47b114607b5780636d4ce63c146090578063f4b103d414607b57600080fd5b3415606357600080fd5b606960a0565b60405190815260200160405180910390f35b3415608557600080fd5b608e60043560a6565b005b3415609a57600080fd5b606960ab565b60005481565b600055565b600054905600a165627a7a723058200769e23c0249a959989711000bf271bcef16976c4fc9cf1fab3954d21c457fc80029",
+  "real_runtime_bytecode": "606060405263ffffffff7c01000000000000000000000000000000000000000000000000000000006000350416632a1afcd98114605957806360fe47b114607b5780636d4ce63c146090578063f4b103d414607b57600080fd5b3415606357600080fd5b606960a0565b60405190815260200160405180910390f35b3415608557600080fd5b608e60043560a6565b005b3415609a57600080fd5b606960ab565b60005481565b600055565b600054905600a165627a7a723058200769e23c0249a959989711000bf271bcef16976c4fc9cf1fab3954d21c457fc80029",
+  "swarm_hash": "0769e23c0249a959989711000bf271bcef16976c4fc9cf1fab3954d21c457fc8",
+  "gas_estimates": {
+    "creation": [
+      88,
+      44200
+    ],
+    "external": {
+      "SimpleStorage(uint256)": 20179,
+      "get()": 396,
+      "set(uint256)": 20135,
+      "storedData()": 352
+    },
+    "internal": {}
+  },
+  "function_hashes": {
+    "SimpleStorage(uint256)": "f4b103d4",
+    "get()": "6d4ce63c",
+    "set(uint256)": "60fe47b1",
+    "storedData()": "2a1afcd9"
+  },
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "storedData",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "x",
+          "type": "uint256"
+        }
+      ],
+      "name": "set",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "get",
+      "outputs": [
+        {
+          "name": "retVal",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "initialValue",
+          "type": "uint256"
+        }
+      ],
+      "name": "SimpleStorage",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ]
+}
