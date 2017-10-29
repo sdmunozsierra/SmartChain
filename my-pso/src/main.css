@@ -1,0 +1,9 @@
+body{
+	margin: 10px;
+}
+.userInputs{
+	float: left;
+	margin-top: 5%;
+	margin-left: 25%;
+	width: 50%;
+}
