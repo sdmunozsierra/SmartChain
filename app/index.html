@@ -32,10 +32,10 @@
       <a class="navbar-brand" href="#">SmartChain</a>
     </div>
     <ul class="nav navbar-nav">
-      <li class = "active"><a href="dashboard.html">Dashboard</a></li>
+      <li class = "active"><a href="index.html">Dashboard</a></li>
       <li><a href="buysell.html">Buy/Sell</a></li>
       <li><a href="settings.html">Settings</a></li>
-      <li><a href="index.html">Log Out</a></li>
+      <li><a href="home.html">Log Out</a></li>
     </ul>
   </div>
 </nav>
@@ -83,6 +83,24 @@
     <input type="submit" value="Transfer From">
 </form>
 
+<p>Javascript calls being made: </p>
+        <div class="logs">
+          <br> EmbarkJS.Storage.setProvider('ipfs',{server: 'localhost', port: '5001'})
+        </div>
+      </div>
+      </div>
+      <div role="tabpanel" class="tab-pane" id="communication">
+        <div class="error alert alert-danger" role="alert">The node you are using does not support Whisper</div>
+        <div class="errorVersion alert alert-danger" role="alert">The node uses an unsupported version of Whisper</div>
+        <div id="communication-controls">
+        <h3>Listen To channel</h3>
+        <div class="form-group form-inline listen">
+          <input type="text" class="channel text form-control" placeholder="channel">
+          <button class="listenToChannel set btn btn-primary">Start Listening</button>
+          <div id="subscribeList"></div>
+          <p>messages received:<p>
+          <div id="messagesList"></div>
+        </div>
 
 </body>
 
