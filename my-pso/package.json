@@ -1,0 +1,29 @@
+{
+  "name": "pesocoin",
+  "version": "1.0.0",
+  "description": "peso coin ftw",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sergio",
+  "license": "ISC",
+  "dependencies": {
+    "zeppelin-solidity": "^1.3.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sdmunozsierra/SmartChain.git"
+  },
+  "keywords": [
+    "smart"
+  ],
+  "bugs": {
+    "url": "https://github.com/sdmunozsierra/SmartChain/issues"
+  },
+  "homepage": "https://github.com/sdmunozsierra/SmartChain#readme"
+}
